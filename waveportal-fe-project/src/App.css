@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.page{
+  background-color: rgb(0, 0, 0);
+  padding-top: 20px;
+  background-image: url("./images/istockphoto-938050474-170667a.jpeg");
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: calc(100vh - 30px);
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(255, 255, 255);
+}
+
+.bio {
+  text-align: center;
+  color: #fff;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.btn-grad {
+  width: 300px;
+   margin: 40px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 5px;
+   box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+   display: block;
+   font-weight: bold;
+   border: none;
+   outline: none;
+ }
+
+ .btn-grad:hover {
+   background-position: right center; /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
+ }
+
+
+
+ .btn-grad-two {background-image: linear-gradient(to right, #E55D87 0%, #5FC3E4  51%, #E55D87  100%)}
+ .btn-grad-two {
+   width: 300px;
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    border-radius: 10px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.4);
+    display: block;
+    font-weight: bold;
+    border: none;
+    outline: none;
+  }
+
+  .btn-grad-two:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+ 
+.total_waves{
+  background-image: linear-gradient(to right, #7474BF 0%, #348AC7  51%, #7474BF  100%);
+  width: 50px;
+   /* margin: 40px; */
+   padding: 5px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   border-radius: 10px;
+   display: block;
+   font-weight: bold;
+   margin-left: 30px;
+}
+
+.input{
+  background: transparent;
+}
+
+.btn,
+input[type="submit"]{
+	cursor: pointer;
+    border-radius: 0px;
+    text-decoration: none;
+    padding: 12px 18px;
+    font-size: 12px;
+    line-height: 19px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif; font-weight:400;
+    letter-spacing: 3px;
+    -webkit-transition: all .4s ease-in-out;
+       -moz-transition: all .4s ease-in-out;
+        -ms-transition: all .4s ease-in-out;
+         -o-transition: all .4s ease-in-out;
+            transition: all .4s ease-in-out;
+}
+
+.btn-white{
+  border:solid 2px #fff;
+  background: transparent;
+  color: #fff !important;
+}
+.btn-white:hover{
+  border:solid 2px #fff;
+  background: #fff;
+  color: #1f1f1f !important;
+}
+
+.btn-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.effect-9{
+  border: 1px solid #ccc;
+  padding: 7px 14px 9px;
+  transition: 0.4s;
+  height: 40px;
+  border-radius: 5px;
+  width: 400px;
+  background: transparent;
+  /* Add a font color for typing */
+  /* Style the placeholder color to be white */
+  color: #fff;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif; font-weight:400;
+  letter-spacing: 3px;
+  margin-top: 10px;
+  margin-bottom: 10px;  
+}
+
+.effect-9 ~ .focus-border:before,
+.effect-9 ~ .focus-border:after{content: ""; position: absolute; top: 0; right: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.2s; transition-delay: 0.2s;}
+.effect-9 ~ .focus-border:after{top: auto; bottom: 0; right: auto; left: 0; transition-delay: 0.6s;}
+.effect-9 ~ .focus-border i:before,
+.effect-9 ~ .focus-border i:after{content: ""; position: absolute; top: 0; left: 0; width: 2px; height: 0; background-color: #3399FF; transition: 0.2s;}
+.effect-9 ~ .focus-border i:after{left: auto; right: 0; top: auto; bottom: 0; transition-delay: 0.4s;}
+.effect-9:focus ~ .focus-border:before,
+.effect-9:focus ~ .focus-border:after{width: 100%; transition: 0.2s; transition-delay: 0.6s;}
+.effect-9:focus ~ .focus-border:after{transition-delay: 0.2s;}
+.effect-9:focus ~ .focus-border i:before,
+.effect-9:focus ~ .focus-border i:after{height: 100%; transition: 0.2s;}
+.effect-9:focus ~ .focus-border i:after{transition-delay: 0.4s;}
